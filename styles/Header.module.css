@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    background: linear-gradient(90deg, #4b79a1, #283e51);
+}
+
+.logo {
+    font-size: 24px;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+@media (prefers-color-scheme: dark) {
+    .header {
+        background: linear-gradient(90deg, #1c1c1e, #2c2c2e);
+    }
+    .nav a {
+        color: white;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    .header {
+        background: linear-gradient(90deg, #e1e1e1, #f7f7f7);
+    }
+    .nav a {
+        color: black;
+    }
+}
