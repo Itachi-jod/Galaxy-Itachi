@@ -1,0 +1,13 @@
+# Node modules
+node_modules/
+
+# Next.js build output
+.next/
+
+# Environment variables
+.env
+
+# IDE settings
+.vscode/
+.idea/
+*.iml
