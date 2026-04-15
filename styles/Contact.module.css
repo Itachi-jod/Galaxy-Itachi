@@ -1,0 +1,42 @@
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.contactForm input,
+.contactForm textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.socialLinks {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.socialLinks button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.socialLinks .facebook {
+    background-color: #3b5998;
+    color: white;
+}
+
+.socialLinks .twitter {
+    background-color: #1da1f2;
+    color: white;
+}
+
+.successMessage {
+    color: green;
+    font-weight: bold;
+    margin-top: 20px;
+}
