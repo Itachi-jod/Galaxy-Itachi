@@ -1,0 +1,40 @@
+.hero {
+  background: linear-gradient(135deg, #f06, #4a90e2);
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+  animation: fadeIn 2s;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: bold;
+  background: -webkit-linear-gradient(#f06, #4a90e2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 30px;
+}
+
+.hero-button {
+  background-color: #4a90e2;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  transition: background-color 0.3s, transform 0.3s;
+  cursor: pointer;
+}
+
+.hero-button:hover {
+  background-color: #f06;
+  transform: scale(1.05);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
