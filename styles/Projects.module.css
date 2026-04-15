@@ -1,0 +1,35 @@
+.project-card {
+    background-color: #ffffff;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 16px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.tech-tag {
+    background-color: #0070f3;
+    border-radius: 12px;
+    color: white;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 6px;
+    padding: 5px 10px;
+}
+
+.project-link {
+    color: #0070f3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}
